@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchMarty" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="XxY-6h-JM2">
@@ -25,72 +25,72 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="Yez-aV-AXf">
-                                <rect key="frame" x="111" y="141" width="99" height="69"/>
+                                <rect key="frame" x="130" y="239" width="116" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="EES-fe-zN6">
-                                <rect key="frame" x="111" y="210" width="99" height="69"/>
+                                <rect key="frame" x="130" y="355" width="116" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="MSl-YP-cI9">
-                                <rect key="frame" x="111" y="273" width="99" height="69"/>
+                                <rect key="frame" x="130" y="462" width="116" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="9PT-0r-dmc">
-                                <rect key="frame" x="206" y="141" width="99" height="69"/>
+                                <rect key="frame" x="241" y="239" width="117" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="23T-bZ-Ndz">
-                                <rect key="frame" x="206" y="210" width="99" height="69"/>
+                                <rect key="frame" x="241" y="355" width="117" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="xXi-k5-Q0V">
-                                <rect key="frame" x="206" y="273" width="99" height="69"/>
+                                <rect key="frame" x="241" y="462" width="117" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="5p6-XP-reA">
-                                <rect key="frame" x="15" y="141" width="99" height="69"/>
+                                <rect key="frame" x="18" y="239" width="116" height="116"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="wVk-Yw-jKf">
-                                <rect key="frame" x="15" y="210" width="99" height="69"/>
+                                <rect key="frame" x="18" y="355" width="116" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="grS-mb-TW5">
-                                <rect key="frame" x="15" y="273" width="99" height="69"/>
+                                <rect key="frame" x="18" y="462" width="116" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="iMf-18-J6S">
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="wDK-cS-EkF">
-                                <rect key="frame" x="111" y="341" width="99" height="69"/>
+                                <rect key="frame" x="130" y="576" width="116" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="Qib-8m-WiR">
-                                <rect key="frame" x="206" y="341" width="99" height="69"/>
+                                <rect key="frame" x="241" y="576" width="117" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="marty" translatesAutoresizingMaskIntoConstraints="NO" id="8Vl-uo-XAP">
-                                <rect key="frame" x="15" y="341" width="99" height="69"/>
+                                <rect key="frame" x="18" y="576" width="116" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Score :  0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs7-bE-qb9">
-                                <rect key="frame" x="108" y="100" width="104" height="30"/>
+                                <rect key="frame" x="127" y="170" width="121" height="51"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="High Score :  0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwM-Iz-1HD">
-                                <rect key="frame" x="84" y="414" width="153" height="46"/>
+                                <rect key="frame" x="98" y="700" width="180" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="30" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xZ-Om-ztL">
-                                <rect key="frame" x="123" y="30" width="74" height="59"/>
+                                <rect key="frame" x="144" y="51" width="87" height="99"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="50"/>
                                 <nil key="textColor"/>
@@ -100,6 +100,23 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="ScoreLabel" destination="rs7-bE-qb9" id="V9m-DM-J8Y"/>
+                        <outlet property="highScoreLabel" destination="pwM-Iz-1HD" id="z57-B9-sxE"/>
+                        <outlet property="marty1" destination="5p6-XP-reA" id="TYF-ec-ch5"/>
+                        <outlet property="marty10" destination="8Vl-uo-XAP" id="M2F-nt-1to"/>
+                        <outlet property="marty11" destination="wDK-cS-EkF" id="Rs5-K0-sJR"/>
+                        <outlet property="marty12" destination="Qib-8m-WiR" id="NrV-7e-Tcv"/>
+                        <outlet property="marty2" destination="Yez-aV-AXf" id="WA5-BR-igA"/>
+                        <outlet property="marty3" destination="9PT-0r-dmc" id="Q9f-bV-N5t"/>
+                        <outlet property="marty4" destination="wVk-Yw-jKf" id="QGH-4a-aAX"/>
+                        <outlet property="marty5" destination="EES-fe-zN6" id="0yZ-cs-9Vu"/>
+                        <outlet property="marty6" destination="23T-bZ-Ndz" id="gXd-us-j5E"/>
+                        <outlet property="marty7" destination="grS-mb-TW5" id="f7w-RM-Ux5"/>
+                        <outlet property="marty8" destination="MSl-YP-cI9" id="akj-cQ-9zn"/>
+                        <outlet property="marty9" destination="xXi-k5-Q0V" id="vHr-4a-OSH"/>
+                        <outlet property="timerLabel" destination="5xZ-Om-ztL" id="ae0-bF-cBE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
